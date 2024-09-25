@@ -8,32 +8,37 @@
     <title>Kvissentali Elu</title>
 
     <!-- SEO -->
-     <link rel="manifest" href="manifest.json">
-     <link rel="canonical" href="https://kvissentalielu.ee">
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://kvissentalielu.ee">
 
-     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#405d27">
-     <meta name="msapplication-TileColor" content="#405d27">
-     <meta name="theme-color" content="#405d27">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#405d27">
+    <meta name="msapplication-TileColor" content="#405d27">
+    <meta name="theme-color" content="#405d27">
      
-     <meta name="description" content="" />
-     <meta property="og:url" content="https://kvissentalielu.ee" />
-     <meta property="og:type" content="website" />
-     <meta property="og:title" content="Kvissentali Elu" />
-     <meta property="og:site_name" content="Kvissentali Elu" />
-     <meta property="og:description" content="" />
-     <meta property="og:image" content="favicon/preview.png" />
-     <meta property="og:image:url" content="https://kvissentalielu.ee/favicon/preview.png" />
-     <meta property="og:image:secure_url" content="https://kvissentalielu.ee/favicon/preview.png" />
-     <meta property="og:image:type" content="image/png" />
-     <meta property="og:image:width" content="1200" />
-     <meta property="og:image:height" content="630" />
-     <meta property="og:locale" content="et-EE" />
+    <meta name="description" content="" />
+    <meta property="og:url" content="https://kvissentalielu.ee" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kvissentali Elu" />
+    <meta property="og:site_name" content="Kvissentali Elu" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="favicon/preview.png" />
+    <meta property="og:image:url" content="https://kvissentalielu.ee/favicon/preview.png" />
+    <meta property="og:image:secure_url" content="https://kvissentalielu.ee/favicon/preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="et-EE" />
      
-     <!-- CSS -->
-      <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -46,20 +51,21 @@
             <header>
                 <h1>Kvissentali Elu MTÜ</h1>
                 <p>Lühikirjeldus</p>
-                <p><a href="documents/pohikiri.pdf" title="Kvissentali Elu Põhikiri" hreflang="et" target="_blank">Põhikiri (PDF, 30KB)</a></p>
+                <p id="statute-button"><a href="documents/pohikiri.pdf" title="Kvissentali Elu Põhikiri" hreflang="et" target="_blank">Põhikiri (PDF, 30KB)</a></p>
             </header>
 
-            <h2>Jälgi meid sotsiaalmeedias!</h2>
             <section id="social">
-                <p><a href="https://www.facebook.com/KvissentaliElu" title="Facebook leht @KvissentaliElu" hreflang="et">Facebook @KvissentaliElu</a></p>
-                <p><a href="https://www.instagram.com/kvissentalielu/" title="Instagram leht @KvissentaliElu" hreflang="et">Instagram @KvissentaliElu</a></p>
+                <p>jälgi meid<br/>sotsiaalmeedias!</p>
+                <div id="social-icons">
+                    <p class="social-icon"><a href="https://www.facebook.com/KvissentaliElu" title="Facebook @KvissentaliElu" target="_blank" hreflang="et"><img src="images/icons/facebook.svg" width=50 height=50 alt="Facebook @KvissentaliElu" /></a></p>
+                    <p class="social-icon"><a href="https://www.instagram.com/kvissentalielu/" title="Instagram @KvissentaliElu" target="_blank" hreflang="et"><img src="images/icons/instagram.svg" width=50 height=50 alt="Instagram @KvissentaliElu" /></a></p>
+                </div>
             </section>
 
         </div>
 
         <div id="right-side">
 
-            <h2>Inimesed</h2>
             <section id="people">
                 <div class="person">
                     <p class="person-picture"><img src="images/people/irina.png" width="200px" height="200px" loading="lazy" alt="Irina Ivanova" /></p>
@@ -75,7 +81,7 @@
             </section>
 
             <section id="recrute">
-                <a href="" title="" hreflang="et"><p>Astu liikmeks!</p></a>
+                <p><a id="recrute-button" href="" title="" hreflang="et">Astu liikmeks!</a></p>
             </section>
 
         </div>
@@ -84,8 +90,9 @@
 
     <footer>
         <p>Kvissentali Elu MTÜ</p>
-        <p>Registrikood: 80644898</p>
-        <p><a href="mailto:KvissentaliElu@gmail.com" title="KvissentaliElu@gmail.com" hreflang="et">KvissentaliElu@gmail.com</a></p>
+        <p>registrikood: 80644898</p>
+        <p><a href="mailto:kvissentalielu@gmail.com" title="kvissentalielu@gmail.com" hreflang="et">kvissentalielu@gmail.com</a></p>
+        <p>Made by <a href="https://vimo.ee/" title="Vimo" hreflang="en">Vimo</a></p>
     </footer>
 
 </body>

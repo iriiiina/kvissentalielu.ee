@@ -14,6 +14,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1em;
+    font-family: "Raleway", sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 /* PAGE */
@@ -24,22 +29,94 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2em;
+    width: 100%;
+    padding: 2em;
 }
 
-.left-side, .right-side {
+#left-side {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-h1, h2 {
+#right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: #023020;
+    padding: 3em 4em;
+    border-radius: 5em;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    border: 0.5em solid #023020;
+    border-radius: 5em 0 5em 5em;
+    padding: 3em;
+    color: #023020;
+}
+
+#statute-button {
+    margin-top: 3em;
     text-align: center;
 }
 
+#statute-button a {
+    border-radius: 0 1em;
+    color: #FFC300;
+    background-color: #023020;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    font-weight: 600;
+    padding: 1em 2em;
+}
+
+#statute-button a:hover {
+    background-color: #2e6f40;
+}
+
+/* SOCIAL */
+
 #social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 2em auto;
+    border-radius: 150px;
+    background-color: #FFC300;
+    font-size: 1.5em;
+    font-weight: 500;
+    gap: 1em;
+}
+
+#social p {
+    margin: 0;
+}
+
+#social-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2em;
+}
+
+.social-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icon a {
+    opacity: 80%;
+    transition: opacity 0.5s ease;
+}
+
+.social-icon a:hover {
+    opacity: 100%;
 }
 
 /* PEOPLE */
@@ -60,25 +137,51 @@ h1, h2 {
     text-align: center;
 }
 
+.person p {
+    margin: 0;
+}
+
 #recrute {
+    margin-top: 2em;
     text-align: center;
 }
 
-#recrute p {
-    border: 1px solid black;
-    border-radius: 1em;
-    padding: 1em;
+#recrute-button {
+    border-radius: 1em 0;
+    padding: 1em 3em;
+    color: #023020;
+    background-color: #efbf04;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    font-weight: 600;
+}
 
+#recrute-button:hover {
+    background-color: #ffee8c;
 }
 
 /* FOOTER */
 
 footer {
     width: 100%;
-    margin-top: 2em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     gap: 1em;
+}
+
+footer a {
+    color: #023020;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+
+footer a:hover {
+    color: #efbf04;
 }
