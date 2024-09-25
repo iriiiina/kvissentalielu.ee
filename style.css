@@ -1,0 +1,84 @@
+/* GENERAL */
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+/* PAGE */
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+/* PEOPLE */
+
+#people {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+#recrute {
+    text-align: center;
+}
+
+#recrute p {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
