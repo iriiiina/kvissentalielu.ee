@@ -27,7 +27,7 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 2em;
     width: 100%;
     padding: 2em;
@@ -37,8 +37,7 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 450px;
-    max-width: 50%;
+    max-width: 600px;
 }
 
 #right-side {
@@ -48,7 +47,7 @@ h1, h2 {
     padding: 3em 4em;
     border-radius: 5em;
     color: white;
-    max-width: 50%;
+    max-width: 600px;
 }
 
 /* HEADER */
@@ -171,7 +170,7 @@ header {
 
 footer {
     width: 100%;
-    margin: 1em;
+    padding: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
