@@ -21,6 +21,20 @@ h1, h2 {
     text-align: center;
 }
 
+p {
+    line-height: 1.5em;
+}
+
+a {
+    color: #023020;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #efbf04;
+}
+
 /* PAGE */
 
 #layout {
@@ -181,14 +195,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-footer a {
-    color: #023020;
-    font-weight: 500;
-    transition: color 0.5s ease;
-}
-
-footer a:hover {
-    color: #efbf04;
 }
