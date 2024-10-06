@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: #efbf04;
+    color: #FFC300;
 }
 
 /* PAGE */
@@ -147,6 +147,14 @@ header {
     gap: 2em;
 }
 
+#people a {
+    color: white;
+}
+
+#people a:hover {
+    color: #FFC300;
+}
+
 .person {
     display: flex;
     flex-direction: column;
@@ -164,7 +172,7 @@ header {
 #join {
     margin-top: 3em;
     padding: 2em;
-    border: 0.5em solid #efbf04;
+    border: 0.5em solid #FFC300;
     border-radius: 0 5em 5em 5em;
     color: #023020;
 }
@@ -175,11 +183,11 @@ header {
 }
 
 #join-button a {
-    border: 5px solid #efbf04;
+    border: 5px solid #FFC300;
     border-radius: 1em 0;
     padding: 10px 20px;
     color: #023020;
-    background-color: #efbf04;
+    background-color: #FFC300;
     text-decoration: none;
     transition: background-color 0.5s ease;
     font-weight: 600;

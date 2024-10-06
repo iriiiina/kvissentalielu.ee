@@ -5,7 +5,7 @@ https://kvissentalielu.ee
 ## Colors
 
 * Dark green #023020
-* Yellow #efbf04
+* Yellow #FFC300
 
 ## Resources
 
