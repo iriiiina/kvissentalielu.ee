@@ -99,7 +99,7 @@ header {
     text-align: center;
     width: 300px;
     height: 300px;
-    margin: 2em auto;
+    margin: 2em auto 1em auto;
     border-radius: 150px;
     color: white;
     background-color: #FFC300;
