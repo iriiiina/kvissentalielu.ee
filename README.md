@@ -2,12 +2,12 @@
 
 https://kvissentalielu.ee
 
-# Colors
+## Colors
 
 * Dark green #023020
 * Yellow #efbf04
 
-# Resources
+## Resources
 
 * Favicons Generator https://realfavicongenerator.net
 * Schema Validator https://validator.schema.org/
