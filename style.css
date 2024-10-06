@@ -42,6 +42,7 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap: 2em;
     width: 100%;
     padding: 2em;
@@ -57,10 +58,6 @@ a:hover {
 #right-side {
     display: flex;
     flex-direction: column;
-    background-color: #023020;
-    padding: 3em 4em;
-    border-radius: 5em;
-    color: white;
     max-width: 600px;
 }
 
@@ -69,7 +66,7 @@ a:hover {
 header {
     border: 0.5em solid #023020;
     border-radius: 5em 0 5em 5em;
-    padding: 3em;
+    padding: 2em;
     color: #023020;
 }
 
@@ -83,7 +80,6 @@ header {
     border-radius: 0 1em;
     color: #FFC300;
     background-color: #023020;
-    text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.5s ease;
     font-weight: 600;
@@ -139,6 +135,10 @@ header {
 /* PEOPLE */
 
 #people {
+    color: white;
+    background-color: #023020;
+    border-radius: 5em;
+    padding: 3em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -159,24 +159,33 @@ header {
     margin: 0;
 }
 
-#recrute {
-    margin-top: 2em;
+/* JOIN */
+
+#join {
+    margin-top: 3em;
+    padding: 2em;
+    border: 0.5em solid #efbf04;
+    border-radius: 5em;
+    color: #023020;
+}
+
+#join-button {
+    margin-top: 3em;
     text-align: center;
 }
 
-#recrute-button {
+#join-button a {
     border: 5px solid #efbf04;
     border-radius: 1em 0;
     padding: 10px 20px;
     color: #023020;
     background-color: #efbf04;
-    text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.5s ease;
     font-weight: 600;
 }
 
-#recrute-button:hover {
+#join-button a:hover {
     background-color: white;
 }
 
