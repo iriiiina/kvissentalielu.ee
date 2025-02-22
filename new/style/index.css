@@ -1,0 +1,118 @@
+/* HEADER */
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+header div:nth-child(1) {
+    text-align: right;
+}
+
+header div:nth-child(2) {
+    text-align: left;
+}
+
+header div {
+    width: 20em;
+}
+
+#logo {
+    height: 12em;
+    stroke: green;
+    stroke-width: 1px;
+    animation: logo-color 10s infinite;
+}
+
+@keyframes logo-color {
+    0% {stroke: #84a98c;
+        stroke-width: 1px;}
+    17% {stroke: #e3b23c;}
+    33% {stroke: #a4969b;}
+    50% {stroke: #655560;
+        stroke-width: 3px;}
+    66% {stroke: #50858b;}
+    83% {stroke: #c1666b;}
+    100% {stroke: #84a98c;
+        stroke-width: 1px;}
+}
+
+/* COMMON */
+
+.category {
+    outline-width: 0.2em;
+    outline-style: double;
+    transition: outline-width 1s;
+    position: relative;
+}
+
+.category:hover {
+    outline-width: 0.5em;
+}
+
+.category-title {
+    margin: 0;
+    padding: 0.3em 1em;
+    position: absolute;
+    top: -0.3em;
+    left: -0.3em;
+    text-decoration: none;
+    background-color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* ABOUT */
+
+#about {
+    outline-color: #84a98c;
+    padding: 2em;
+}
+
+/* JOIN */
+
+#join {
+    outline-color: #e3b23c;
+    padding: 2em;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    outline-color: #a4969b;
+    padding: 2em;
+}
+
+/* PEOPLE */
+
+#people {
+    outline-color: #655560;
+    padding: 2em;
+}
+
+/* DAY */
+
+#day {
+    outline-color: #50858b;
+    padding: 2em;
+}
+
+/* KVISSENTALI */
+
+#kvissentali {
+    outline-color: #c1666b;
+    padding: 2em;
+}

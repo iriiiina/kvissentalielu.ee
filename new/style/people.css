@@ -1,0 +1,30 @@
+h2 {
+    text-align: left;
+    font-weight: 400;
+    margin: 1em 0;
+    border-bottom: 0.5px dashed #655560;
+    color: #655560;
+}
+
+#board-members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+}
