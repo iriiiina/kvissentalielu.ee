@@ -74,7 +74,7 @@ nav a:hover {
     border-color: #e3b23c;
 }
 
-#portfolio-nav:hover {
+#projects-nav:hover {
     color: #a4969b;
     border-color: #a4969b;
 }
@@ -170,3 +170,18 @@ h2 {
 }
 
 /* ABOUT */
+
+/* PROJECTS */
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.project img {
+    width: 400px;
+}
