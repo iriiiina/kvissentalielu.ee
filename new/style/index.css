@@ -4,10 +4,6 @@ h1 {
     text-align: right;
 }
 
-h2 {
-    text-align: center;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -47,6 +43,27 @@ header div {
     83% {stroke: #c1666b;}
     100% {stroke: #84a98c;
         stroke-width: 1px;}
+}
+
+/* BODY */
+
+#body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+    margin: 3em 2em;
+}
+
+#body div {
+    width: 30%;
+}
+
+#page-body {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* COMMON */

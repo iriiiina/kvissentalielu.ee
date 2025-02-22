@@ -1,0 +1,170 @@
+/* HEADER */
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 0 1em 2em 1em;
+    margin: 0;
+    width: 100%;
+}
+
+#nav-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+#nav-logo p {
+    margin: 0;
+    padding: 0;
+}
+
+#page-logo {
+    height: 5em;
+    stroke: green;
+    stroke-width: 1px;
+    animation: logo-color 10s infinite;
+}
+
+@keyframes logo-color {
+    0% {stroke: #84a98c;
+        stroke-width: 1px;}
+    17% {stroke: #e3b23c;}
+    33% {stroke: #a4969b;}
+    50% {stroke: #655560;
+        stroke-width: 3px;}
+    66% {stroke: #50858b;}
+    83% {stroke: #c1666b;}
+    100% {stroke: #84a98c;
+        stroke-width: 1px;}
+}
+
+/* NAV */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 7px solid;
+    transition: border 0.5s ease;
+}
+
+#about-nav:hover {
+    color: #84a98c;
+    border-color: #84a98c;
+}
+
+#join-nav:hover {
+    color: #e3b23c;
+    border-color: #e3b23c;
+}
+
+#portfolio-nav:hover {
+    color: #a4969b;
+    border-color: #a4969b;
+}
+
+#people-nav:hover {
+    color: #655560;
+    border-color: #655560;
+}
+
+#day-nav:hover {
+    color: #50858b;
+    border-color: #50858b;
+}
+
+#kvissentali-nav:hover {
+    color: #c1666b;
+    border-color: #c1666b;
+}
+
+/* BODY */
+
+#body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+    margin: 3em 2em;
+}
+
+#body div {
+    width: 30%;
+}
+
+#page-body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* PEOPLE */
+
+h2 {
+    text-align: left;
+    font-weight: 400;
+    margin: 1em 0;
+    border-bottom: 0.5px dashed #655560;
+    color: #655560;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+#board-members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+}
+
+#join-add {
+    text-align: center;
+    margin: 3em 0 2em 0;
+}
+
+#join-add a {
+    text-decoration: none;
+    outline-width: 0.3em;
+    outline-style: double;
+    outline-color: #e3b23c;
+    transition: outline-width 1s;
+    padding: 1.5em 3em;
+}
+
+#join-add a:hover {
+    color: #e3b23c;
+    outline-width: 0.5em;
+}
