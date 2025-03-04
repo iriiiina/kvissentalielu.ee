@@ -152,7 +152,7 @@ h2 {
 
 #join-add {
     text-align: center;
-    margin: 3em 0 2em 0;
+    margin: 2em 0 4em 0;
 }
 
 #join-add a {
@@ -161,7 +161,7 @@ h2 {
     outline-style: double;
     outline-color: #e3b23c;
     transition: outline-width 1s;
-    padding: 1.5em 3em;
+    padding: 1em 3em;
 }
 
 #join-add a:hover {
