@@ -6,6 +6,12 @@ h1 {
 
 header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,15 +19,15 @@ header {
     margin: 2em 0;
 }
 
-header div:nth-child(1) {
+#header div:nth-child(1) {
     text-align: right;
 }
 
-header div:nth-child(2) {
+#header div:nth-child(2) {
     text-align: left;
 }
 
-header div {
+#header div {
     width: 20em;
 }
 
@@ -43,6 +49,23 @@ header div {
     83% {stroke: #c1666b;}
     100% {stroke: #84a98c;
         stroke-width: 1px;}
+}
+
+#info-banner {
+    text-align: center;
+    margin: 0 10%;
+    border: 1px dashed;
+    animation: banner-color 10s infinite;
+}
+
+@keyframes banner-color {
+    0% {border-color: #84a98c;}
+    17% {border-color: #e3b23c;}
+    33% {border-color: #a4969b;}
+    50% {border-color: #655560;}
+    66% {border-color: #50858b;}
+    83% {border-color: #c1666b;}
+    100% {border-color: #84a98c;}
 }
 
 /* BODY */
