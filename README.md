@@ -11,3 +11,4 @@ https://kvissentalielu.ee
 
 * Favicons Generator https://realfavicongenerator.net
 * Schema Validator https://validator.schema.org/
+* Simple Icons https://simpleicons.org
