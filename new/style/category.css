@@ -200,3 +200,38 @@ h3 {
 .project-date {
     margin: 0;
 }
+
+/* KVISSENTALI DAY */
+
+#day-body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.day-photo {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+    border-left: 4px #50858b double;
+    border-right: 4px #50858b double;
+}
+
+#day-button {
+    text-align: center;
+    margin: 3em 0;
+}
+
+#day-button a {
+    text-decoration: none;
+    outline-width: 0.3em;
+    outline-style: double;
+    outline-color: #50858b;
+    transition: outline-width 1s;
+    padding: 1em 3em;
+}
+
+#day-button a:hover {
+    color: #50858b;
+    outline-width: 0.5em;
+}
