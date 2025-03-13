@@ -69,9 +69,19 @@ nav a:hover {
     border-color: #84a98c;
 }
 
+#about-nav-selected {
+    color: #84a98c;
+    border-bottom: 7px solid #84a98c;
+}
+
 #join-nav:hover {
     color: #e3b23c;
     border-color: #e3b23c;
+}
+
+#join-nav-selected {
+    color: #e3b23c;
+    border-bottom: 7px solid #e3b23c;
 }
 
 #projects-nav:hover {
@@ -79,9 +89,19 @@ nav a:hover {
     border-color: #a4969b;
 }
 
+#projects-nav-selected {
+    color: #a4969b;
+    border-bottom: 7px solid #a4969b;
+}
+
 #people-nav:hover {
     color: #655560;
     border-color: #655560;
+}
+
+#people-nav-selected {
+    color: #655560;
+    border-bottom: 7px solid #655560;
 }
 
 #day-nav:hover {
@@ -89,9 +109,19 @@ nav a:hover {
     border-color: #50858b;
 }
 
+#day-nav-selected {
+    color: #50858b;
+    border-bottom: 7px solid #50858b;
+}
+
 #kvissentali-nav:hover {
     color: #c1666b;
     border-color: #c1666b;
+}
+
+#kvissentali-nav-selected {
+    color: #c1666b;
+    border-bottom: 7px solid #c1666b;
 }
 
 /* BODY */
