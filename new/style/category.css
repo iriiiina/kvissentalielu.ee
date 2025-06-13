@@ -215,7 +215,6 @@ h2 {
 
 #statute-button {
     text-align: center;
-    margin: 2em 0 4em 0;
 }
 
 #statute-button a {
@@ -230,6 +229,20 @@ h2 {
 #statute-button a:hover {
     color: #84a98c;
     outline-width: 0.5em;
+}
+
+#statue-header {
+    margin: 2em 0 0 0;
+}
+
+#statue {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: -1em;
 }
 
 /* PROJECTS */
