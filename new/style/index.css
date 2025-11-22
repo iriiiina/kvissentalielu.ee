@@ -80,10 +80,6 @@ header {
     margin: 3em 2em;
 }
 
-#body div {
-    width: 30%;
-}
-
 #page-body {
     width: 60%;
     margin: 0 auto;
@@ -96,6 +92,12 @@ header {
     outline-style: double;
     transition: outline-width 1s;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;;
+    gap: 1em;
+    width: 30%;
+    padding: 1em;
 }
 
 .category:hover {
@@ -115,44 +117,72 @@ header {
     text-transform: uppercase;
 }
 
+.category-icon {
+    font-size: 5em;
+    align-items: center;
+    line-height: 100px;
+}
+
+.category-description {
+    width: 100%;
+}
+
 /* ABOUT */
 
 #about {
     outline-color: #84a98c;
-    padding: 2em;
+}
+
+#about .category-icon {
+    color: #84a98c;
 }
 
 /* JOIN */
 
 #join {
     outline-color: #e3b23c;
-    padding: 2em;
+}
+
+#join .category-icon {
+    color: #e3b23c;
 }
 
 /* PROJECTS */
 
 #projects {
     outline-color: #a4969b;
-    padding: 2em;
+}
+
+#projects .category-icon {
+    color: #a4969b;
 }
 
 /* PEOPLE */
 
 #people {
     outline-color: #655560;
-    padding: 2em;
+}
+
+#people .category-icon {
+    color: #655560;
 }
 
 /* DAY */
 
 #day {
     outline-color: #50858b;
-    padding: 2em;
+}
+
+#day .category-icon {
+    color: #50858b;
 }
 
 /* KVISSENTALI */
 
 #kvissentali {
     outline-color: #c1666b;
-    padding: 2em;
+}
+
+#kvissentali .category-icon{
+    color: #c1666b;
 }

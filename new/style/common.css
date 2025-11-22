@@ -82,6 +82,15 @@ a:hover {
     border-color: #c1666b;
 }
 
+/* TABLE OF CONTENTS */
+
+.table-of-contents {
+    position: sticky;
+    top: 3em;
+    width: 200px;
+    padding: 0 1em;
+}
+
 /* FOOTER */
 
 footer {
