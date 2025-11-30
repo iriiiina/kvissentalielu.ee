@@ -141,8 +141,9 @@ nav a:hover {
 }
 
 #page-body {
-    width: 60%;
     margin: 0 auto;
+    padding: 0 1em;
+    text-align: center;
 }
 
 /* PEOPLE */
@@ -241,8 +242,6 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    margin-top: -1em;
 }
 
 /* PROJECTS */

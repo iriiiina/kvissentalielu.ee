@@ -7,13 +7,14 @@ h1 {
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 1em;
 }
 
 #header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     margin: 2em 0;
@@ -28,7 +29,7 @@ header {
 }
 
 #header div {
-    width: 20em;
+    max-width: 20em;
 }
 
 #logo {
