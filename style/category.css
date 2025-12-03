@@ -206,7 +206,6 @@ h2 {
     min-width: 45%;
 }
 
-
 #statute-button {
     text-align: center;
 }
@@ -233,6 +232,25 @@ h2 {
     align-items: center;
     margin-top: -2em;
     gap: 2em;
+}
+
+#media-button {
+    text-align: center;
+    padding: 2em 0
+}
+
+#media-button a {
+    text-decoration: none;
+    outline-width: 0.3em;
+    outline-style: double;
+    outline-color: #c1666b;
+    transition: outline-width 1s;
+    padding: 1em 3em;
+}
+
+#media-button a:hover {
+    color: #c1666b;
+    outline-width: 0.5em;
 }
 
 /* PROJECTS */
