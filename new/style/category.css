@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 1em;
-    padding: 0 0 2em 0;
+    padding: 1em 0 2em 0;
     margin: 0;
     width: 100%;
 }
@@ -53,6 +53,7 @@ nav ul {
     flex-wrap: wrap;
     gap: 1.5em;
     list-style-type: none;
+    padding: 0;
 }
 
 nav a {
@@ -127,9 +128,8 @@ nav a:hover {
 /* BODY */
 
 #page-body {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 1em;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -162,8 +162,8 @@ h2 {
 .person {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
     gap: 1em;
 }
@@ -198,6 +198,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2%;
 }
 
@@ -269,7 +270,7 @@ h3 {
 /* KVISSENTALI DAY */
 
 #day-body {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -303,4 +304,17 @@ h3 {
 #day-button a:hover {
     color: #50858b;
     outline-width: 0.5em;
+}
+
+/* KVISSENTALI */
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1500px) {
+    iframe {
+        width: 1120px;
+        height: 630px;
+    }
 }
