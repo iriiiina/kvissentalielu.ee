@@ -225,16 +225,14 @@ h2 {
     outline-width: 0.5em;
 }
 
-#statue-header {
-    margin: 2em 0 0 0;
-}
-
 #statue {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -2em;
+    gap: 2em;
 }
 
 /* PROJECTS */
@@ -256,11 +254,20 @@ h3 {
 }
 
 .project {
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .project img {
-    max-width: 400px;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+    .project {
+        max-width: 400px;
+    }
+    .project img {
+        max-width: 400px;
+    }
 }
 
 .project-date {
