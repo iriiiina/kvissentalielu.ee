@@ -12,6 +12,15 @@
     width: 100%;
 }
 
+.page-header a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.page-header a:hover {
+    color: #023020;
+}
+
 #nav-logo {
     display: flex;
     flex-direction: row;
