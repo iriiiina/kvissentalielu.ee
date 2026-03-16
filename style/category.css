@@ -271,7 +271,8 @@ h3 {
     font-size: 1.5em;
 }
 
-#projects {
+#projects,
+#past-projects-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
