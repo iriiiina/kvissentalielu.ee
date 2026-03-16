@@ -31,7 +31,7 @@ style/
 images/             — All visual assets (favicon/, projects/, people/, icons/)
 documents/          — PDFs (statute, annual reports, board meeting minutes)
 media-kit/          — Brand assets in various sizes and colors
-old/                — Archived content
+old/                — Archived old design (IGNORE — do not read, analyze, or modify)
 AI/                 — Context files for AI assistants
 ```
 

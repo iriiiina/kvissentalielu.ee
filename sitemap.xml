@@ -3,58 +3,51 @@
 
   <url>
     <loc>https://kvissentalielu.ee/</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://kvissentalielu.ee/index.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://kvissentalielu.ee/about.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://kvissentalielu.ee/day.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://kvissentalielu.ee/join.html</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://kvissentalielu.ee/kvissentali.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://kvissentalielu.ee/people.html</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://kvissentalielu.ee/projects.html</loc>
-    <lastmod>2026-01-18</lastmod>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kvissentalielu.ee/people.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kvissentalielu.ee/day.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kvissentalielu.ee/kvissentali.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
 
 </urlset>

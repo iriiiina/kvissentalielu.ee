@@ -17,6 +17,10 @@ Context files:
 
 * `GENERAL_CONTEXT.md` — organization overview, members, projects, contact info
 
+## Archived
+
+The `old/` folder contains a previous version of the website design. It is kept for reference only and is not part of the current site.
+
 ## Resources
 
 * Favicons Generator https://realfavicongenerator.net
