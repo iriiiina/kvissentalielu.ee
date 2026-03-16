@@ -3,7 +3,8 @@
 /* Raleway Variable Font – Normal */
 @font-face {
   font-family: "Raleway";
-  src: url("raleway.ttf") format("truetype");
+  src: url("raleway.woff2") format("woff2"),
+       url("raleway.ttf") format("truetype");
   font-weight: 100 900; /* variable range */
   font-style: normal;
   font-display: swap;
@@ -12,7 +13,8 @@
 /* Raleway Variable Font – Italic */
 @font-face {
   font-family: "Raleway";
-  src: url("raleway-italic.ttf") format("truetype");
+  src: url("raleway-italic.woff2") format("woff2"),
+       url("raleway-italic.ttf") format("truetype");
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
