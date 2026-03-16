@@ -41,19 +41,6 @@
     animation: logo-color 10s infinite;
 }
 
-@keyframes logo-color {
-    0% {stroke: #84a98c;
-        stroke-width: 1px;}
-    17% {stroke: #e3b23c;}
-    33% {stroke: #a4969b;}
-    50% {stroke: #655560;
-        stroke-width: 3px;}
-    66% {stroke: #50858b;}
-    83% {stroke: #c1666b;}
-    100% {stroke: #84a98c;
-        stroke-width: 1px;}
-}
-
 /* NAV */
 
 nav ul {

@@ -160,3 +160,55 @@ footer p {
     width: auto;
     max-width: 100%;
 }
+
+/* LOGO ANIMATION */
+
+@keyframes logo-color {
+    0% {stroke: #84a98c;
+        stroke-width: 1px;}
+    17% {stroke: #e3b23c;}
+    33% {stroke: #a4969b;}
+    50% {stroke: #655560;
+        stroke-width: 3px;}
+    66% {stroke: #50858b;}
+    83% {stroke: #c1666b;}
+    100% {stroke: #84a98c;
+        stroke-width: 1px;}
+}
+
+/* 404 */
+
+.symbol-404 {
+    font-size: 5em;
+    margin: 0;
+    line-height: 1;
+    animation: symbol-color 10s infinite;
+}
+
+@keyframes symbol-color {
+    0% { color: #84a98c; }
+    17% { color: #e3b23c; }
+    33% { color: #a4969b; }
+    50% { color: #655560; }
+    66% { color: #50858b; }
+    83% { color: #c1666b; }
+    100% { color: #84a98c; }
+}
+
+/* FOCUS STYLES */
+
+a:focus-visible {
+    outline: 2px solid #023020;
+    outline-offset: 2px;
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
