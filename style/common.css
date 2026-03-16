@@ -157,4 +157,6 @@ footer p {
 
 #footer-sponsors img {
     height: 5em;
+    width: auto;
+    max-width: 100%;
 }
