@@ -202,6 +202,25 @@ a:focus-visible {
     outline-offset: 2px;
 }
 
+/* SKIP LINK */
+
+.skip-link {
+    position: absolute;
+    top: -3em;
+    left: 1em;
+    background: #023020;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+    top: 0.5em;
+    color: #fff;
+}
+
 /* REDUCED MOTION */
 
 @media (prefers-reduced-motion: reduce) {

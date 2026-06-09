@@ -13,8 +13,11 @@
             "type": "image/png"
         }
     ],
-    "start_url": "index.html",
-    "theme_color": "#ffffff",
+    "start_url": "/",
+    "scope": "/",
+    "lang": "et-EE",
+    "description": "Kvissentali Elu MTÜ — Tartu Kvissentali linnaosa elanike ühing.",
+    "theme_color": "#efbf04",
     "background_color": "#ffffff",
     "display": "standalone"
 }

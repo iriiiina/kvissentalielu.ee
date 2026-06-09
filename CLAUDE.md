@@ -59,3 +59,13 @@ AI/                 — Context files for AI assistants
 - Maintain the consistent header/nav/footer across all pages
 - Test responsiveness — layouts use flexbox with media queries
 - Logo uses CSS `@keyframes` color animation cycling through 6 accent colors
+
+## Quality Standards — Always Consider
+
+For every change, evaluate impact on these three dimensions before finishing:
+
+- **Accessibility (a11y):** semantic HTML landmarks (`<main>`, `<nav>`, `<header>`, `<footer>`), descriptive `alt` text on content images, `aria-hidden="true"` on decorative SVGs/icons/dividers, `aria-label` on icon-only links, sufficient color contrast (WCAG AA: 4.5:1 text, 3:1 large text/UI), keyboard focus visibility, skip link to main, `prefers-reduced-motion` respected, descriptive `<iframe>` titles.
+- **Performance:** WebP images with `width`/`height` to prevent CLS, `loading="lazy"` on below-the-fold images, font preloading, avoid blocking scripts (there are none — keep it that way), minimize CSS animations, no JS unless absolutely necessary.
+- **SEO:** unique per-page `<title>` and `meta description`, canonical URLs with consistent trailing slash, complete Open Graph + Twitter card tags (absolute image URLs, correct dimensions, image alt), Schema.org structured data (NGO/Organization on homepage, BreadcrumbList on category pages, Event/Project/Person where relevant), `sitemap.xml` updated, `robots.txt` correct, `lang="et-EE"` on `<html>`, descriptive internal link text.
+
+If a change touches user-visible HTML/CSS/content, briefly verify nothing in these three areas regressed.
